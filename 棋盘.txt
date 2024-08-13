@@ -1,0 +1,91 @@
+//dfs+剪枝
+#include<bits/stdc++.h>
+using namespace std;
+int m,n;//棋盘大小，颜色点个数
+int mp[1005][1005];
+int cost[1005][1005];//记录每个格子的最小代价 
+const int INF=1005*1005*4;
+int changex[5]={0,0,1,-1,0};
+int changey[5]={0,1,0,0,-1};
+
+void dfs(int x,int y,int used,int now_cost,int color)
+{
+    if(x==m&&y==m)
+    {
+        cost[x][y]=min(now_cost,cost[x][y]);
+        return;
+    }
+    if(now_cost>=cost[x][y]) return;//可行性剪枝1如果当前搜索的大于原本的，返回 
+    cost[x][y]=now_cost;
+    for(int i=1;i<=4;i++)
+    {
+        int newx=x+changex[i];
+        int newy=y+changey[i];
+        if(newx>m||newx<1) continue;
+        if(newy>m||newy<1) continue;//剪掉边界 
+        if(mp[newx][newy]==-1)
+        {
+            if(used==1) continue;
+            else 
+            {
+                if(mp[x][y]==1)
+                {
+                    dfs(newx,newy,1,now_cost+2,1);
+                    dfs(newx,newy,1,now_cost+3,0);
+                }
+                else
+                {
+                    dfs(newx,newy,1,now_cost+3,1);
+                    dfs(newx,newy,1,now_cost+2,0);
+                }//大细节,染色后仍然需要比较当前格子和染色格子的颜色,而不是直接加2 
+            }
+        }
+        else if(color==mp[newx][newy]) dfs(newx,newy,0,now_cost,mp[newx][newy]);
+        else if(color!=mp[newx][newy]) dfs(newx,newy,0,now_cost+1,mp[newx][newy]);
+    }
+}
+
+void clean()
+{
+    memset(mp,-1,sizeof(mp));
+    for(int i=1;i<=m;i++)
+    {
+        for(int j=1;j<=m;j++)
+        {
+            cost[i][j]=INF;    
+        }
+     }
+}
+
+int main()
+{
+    cin>>m>>n;
+    clean();
+    for(int i=1;i<=n;i++)
+    {
+        int x,y,z;
+        cin>>x>>y>>z;
+        mp[x][y]=z;//1黄0红 
+    }
+    dfs(1,1,0,0,mp[1][1]);
+//    for(int i=1;i<=m;i++)
+//    {
+//        for(int j=1;j<=m;j++)
+//        {
+//            cout<<left<<setw(8)<<cost[i][j]<<" ";
+//        }
+//        cout<<endl;
+//    }
+//    cout<<endl;
+//    for(int i=1;i<=m;i++)
+//    {
+//        for(int j=1;j<=m;j++)
+//        {
+//            cout<<mp[i][j]<<" ";
+//        }
+//        cout<<endl;
+//    }debug 
+    if(cost[m][m]==INF) cout<<"-1"<<endl;
+    else cout<<cost[m][m]<<endl;
+    return 0; 
+}

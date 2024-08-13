@@ -1,0 +1,443 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{\textbf{#1}}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{gcc--gdb}{%
+\section{GCC \& GDB}\label{gcc--gdb}}
+
+gcc 与 g++ 分别是 gnu 的 c \& c++ 编译器 gcc/g++
+在执行编译工作的时候，总共需要4步：
+
+\begin{itemize}
+\item
+  1、预处理,生成 .i 的文件{[}\textbf{预处理器cpp}{]}
+\item
+  2、将预处理后的文件转换成汇编语言, 生成文件 .s
+  {[}\textbf{编译器egcs}{]}
+\item
+  3、有汇编变为目标代码(机器代码)生成 .o 的文件{[}\textbf{汇编器as}{]}
+\item
+  4、连接目标代码, 生成可执行程序 {[}\textbf{链接器ld}{]}
+\end{itemize}
+
+\hypertarget{gcc}{%
+\subsection{GCC}\label{gcc}}
+
+\hypertarget{1ux8bbeux5b9aux6587ux4ef6ux6240ux4f7fux7528ux7684ux8bedux8a00--x}{%
+\subsection{1、设定文件所使用的语言
+-x}\label{1ux8bbeux5b9aux6587ux4ef6ux6240ux4f7fux7528ux7684ux8bedux8a00--x}}
+
+可以编译不是指定文件后缀的文件，.c .cpp
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{gcc {-}x language filename}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{gcc {-}x none filename}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{2ux53eaux628aux7a0bux5e8fux505aux6210objux6587ux4ef6--c}{%
+\subsection{2、只把程序做成obj文件
+-c}\label{2ux53eaux628aux7a0bux5e8fux505aux6210objux6587ux4ef6--c}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{gcc {-}c hello.c}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{3ux53eaux6fc0ux6d3bux9884ux5904ux7406ux548cux7f16ux8bd1ux7f16ux8bd1ux4e3aux6c47ux7f16ux4ee3ux7801--s}{%
+\subsection{3、只激活预处理和编译，编译为汇编代码
+-S}\label{3ux53eaux6fc0ux6d3bux9884ux5904ux7406ux548cux7f16ux8bd1ux7f16ux8bd1ux4e3aux6c47ux7f16ux4ee3ux7801--s}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{gcc {-}S hello.c}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{4ux53eaux6fc0ux6d3bux9884ux5904ux7406ux4e0dux751fux6210ux6587ux4ef6--e}{%
+\subsection{4、只激活预处理，不生成文件
+-E}\label{4ux53eaux6fc0ux6d3bux9884ux5904ux7406ux4e0dux751fux6210ux6587ux4ef6--e}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{gcc {-}E hello.c \textgreater{} text.txt}
+\NormalTok{gcc {-}E hello.c | more}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{5ux6307ux5b9aux76eeux6807ux540dux79f0ux9ed8ux8ba4ux7f16ux8bd1ux51faaout--o}{%
+\subsection{5、指定目标名称，默认编译出a.out
+-o}\label{5ux6307ux5b9aux76eeux6807ux540dux79f0ux9ed8ux8ba4ux7f16ux8bd1ux51faaout--o}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{gcc {-}o ExecuteFileName hello.c}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{6ux4f7fux7528ux7ba1ux9053ux4ee3ux66ffux7f16ux8bd1ux4e2dux4e34ux65f6ux6587ux4ef6--pipe}{%
+\subsection{6、使用管道代替编译中临时文件
+-pipe}\label{6ux4f7fux7528ux7ba1ux9053ux4ee3ux66ffux7f16ux8bd1ux4e2dux4e34ux65f6ux6587ux4ef6--pipe}}
+
+使用非GNU汇编工具的时候，可以会有问题。
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{gcc {-}pipe {-}o hello.exe hello.c}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{7ux4f7fux7528ux67d0ux4e2aux6587ux4ef6-include}{%
+\subsection{7、使用某个文件，-include}\label{7ux4f7fux7528ux67d0ux4e2aux6587ux4ef6-include}}
+
+相当于在代码中使用\#include
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{gcc hello.c {-}include /root/tmp.h}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{8ux9884ux5904ux7406ux662fux4e0dux5220ux9664ux6ce8ux91caux4fe1ux606fux4e00ux822cux548c-eux4f7fux7528--c}{%
+\subsection{8、预处理是不删除注释信息，一般和-E使用
+-C}\label{8ux9884ux5904ux7406ux662fux4e0dux5220ux9664ux6ce8ux91caux4fe1ux606fux4e00ux822cux548c-eux4f7fux7528--c}}
+
+\hypertarget{9ux751fux6210ux6587ux4ef6ux5173ux8054ux7684ux4fe1ux606f--m}{%
+\subsection{9、生成文件关联的信息
+-M}\label{9ux751fux6210ux6587ux4ef6ux5173ux8054ux7684ux4fe1ux606f--m}}
+
+和-M的那个一样，但是它将忽略由 \textbf{\#include} 造成的依赖关系。
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{{-}MD}
+\end{Highlighting}
+\end{Shaded}
+
+和-M相同，但是输出将导入到.d的文件里面
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{{-}MMD}
+\end{Highlighting}
+\end{Shaded}
+
+和 -MM 相同，但是输出将导入到 .d 的文件里面。
+
+\hypertarget{10ux5236ux5b9aux7f16ux8bd1ux7684ux65f6ux5019ux4f7fux7528ux7684ux5e93--llibrary}{%
+\subsection{\texorpdfstring{10、制定编译的时候使用的库
+\textbf{-llibrary}}{10、制定编译的时候使用的库 -llibrary}}\label{10ux5236ux5b9aux7f16ux8bd1ux7684ux65f6ux5019ux4f7fux7528ux7684ux5e93--llibrary}}
+
+例子用法
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{gcc {-}lcurses hello.c}
+\end{Highlighting}
+\end{Shaded}
+
+使用 ncurses 库编译程序
+
+\hypertarget{gdb}{%
+\subsection{GDB}\label{gdb}}
+
+\hypertarget{1-ux5165ux95e8ux4e09ux6b65ux66f2}{%
+\subsection{1. 入门三步曲}\label{1-ux5165ux95e8ux4e09ux6b65ux66f2}}
+
+\hypertarget{11-ux8bbeux65adux70b9}{%
+\subsubsection{1.1 设断点}\label{11-ux8bbeux65adux70b9}}
+
+如果你曾经使用过调试器, 那你可能已经会设置断点了。
+下面是一个我们要调试的程序(虽然没有任何 Bug):
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\PreprocessorTok{\#include }\ImportTok{\textless{}stdio.h\textgreater{}}\PreprocessorTok{}
+\DataTypeTok{void}\NormalTok{ do\_thing}\OperatorTok{()} \OperatorTok{\{}
+\NormalTok{ printf}\OperatorTok{(}\StringTok{"Hi!}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\OperatorTok{);}
+\OperatorTok{\}}
+\DataTypeTok{int}\NormalTok{ main}\OperatorTok{()} \OperatorTok{\{}
+\NormalTok{ do\_thing}\OperatorTok{();}
+\OperatorTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+另存为 hello.c. 我们可以使用 dbg 调试它, 像这样:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{bork@kiwi \textasciitilde{}\textgreater{} gcc {-}g hello.c {-}o hello}
+\NormalTok{bork@kiwi \textasciitilde{}\textgreater{} gdb ./hello}
+\end{Highlighting}
+\end{Shaded}
+
+以上是带调试信息编译 hello.c(为了 gdb 可以更好工作),
+并且它会给我们醒目的提示符, 就像这样: \texttt{(gdb)} 我们可以使用 break
+命令设置断点, 然后使用 run 开始调试程序。
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(gdb) break do\_thing }
+\NormalTok{Breakpoint 1 at 0x4004f8}
+\NormalTok{(gdb) run}
+\NormalTok{Starting program: /home/bork/hello }
+\NormalTok{Breakpoint 1, 0x00000000004004f8 in do\_thing ()}
+\end{Highlighting}
+\end{Shaded}
+
+程序暂停在了 do\_thing 开始的地方。 我们可以通过 where
+查看我们所在的调用栈。
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(gdb) where}
+\NormalTok{\#0 do\_thing () at hello.c:3}
+\NormalTok{\#1 0x08050cdb in main () at hello.c:6}
+\NormalTok{(gdb)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{12-ux9605ux8bfbux6c47ux7f16ux4ee3ux7801}{%
+\subsubsection{1.2
+阅读汇编代码}\label{12-ux9605ux8bfbux6c47ux7f16ux4ee3ux7801}}
+
+使用 disassemble 命令, 我们可以看到这个函数的汇编代码。棒级了, 这是 x86
+汇编代码。虽然我不是很懂它, 但是 callq 这一行是 printf 函数调用。
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(gdb) disassemble do\_thing}
+\NormalTok{Dump of assembler code for function do\_thing:}
+\NormalTok{ 0x00000000004004f4 \textless{}+0\textgreater{}: push \%rbp}
+\NormalTok{ 0x00000000004004f5 \textless{}+1\textgreater{}: mov \%rsp,\%rbp}
+\NormalTok{=\textgreater{} 0x00000000004004f8 \textless{}+4\textgreater{}: mov $0x40060c,\%edi}
+\NormalTok{ 0x00000000004004fd \textless{}+9\textgreater{}: callq 0x4003f0 }
+\NormalTok{ 0x0000000000400502 \textless{}+14\textgreater{}: pop \%rbp}
+\NormalTok{ 0x0000000000400503 \textless{}+15\textgreater{}: retq}
+\end{Highlighting}
+\end{Shaded}
+
+你也可以使用 disassemble 的缩写 disas。
+
+\hypertarget{13-ux67e5ux770bux5185ux5b58}{%
+\subsubsection{1.3 查看内存}\label{13-ux67e5ux770bux5185ux5b58}}
+
+当调试我的内核时, 我使用 gdb 的主要原因是,
+以确保内存布局是如我所想的那样。检查内存的命令是 examine, 或者使用缩写
+x。我们将使用x。 通过阅读上面的汇编代码, 似乎 0x40060c
+可能是我们所要打印的字符串地址。我们来试一下。
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(gdb) x/s 0x40060c}
+\NormalTok{0x40060c: "Hi!"}
+\end{Highlighting}
+\end{Shaded}
+
+的确是这样。x/s 中 /s 部分, 意思是"把它作为字符串展示"。我也可以"展示 10
+个字符", 像这样:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(gdb) x/10c 0x40060c}
+\NormalTok{0x40060c: 72 \textquotesingle{}H\textquotesingle{} 105 \textquotesingle{}i\textquotesingle{} 33 \textquotesingle{}!\textquotesingle{} 0 \textquotesingle{}\textbackslash{}000\textquotesingle{} 1 \textquotesingle{}\textbackslash{}001\textquotesingle{} 27 \textquotesingle{}\textbackslash{}033\textquotesingle{} 3 \textquotesingle{}\textbackslash{}003\textquotesingle{} 59 \textquotesingle{};\textquotesingle{}}
+\NormalTok{0x400614: 52 \textquotesingle{}4\textquotesingle{} 0 \textquotesingle{}\textbackslash{}000\textquotesingle{}}
+\end{Highlighting}
+\end{Shaded}
+
+你可以看到前四个字符是 H、i、! 和 \textbackslash0,
+并且它们之后的是一些不相关的东西。
+
+\hypertarget{2-gdbux53c2ux6570ux547dux4ee4-ux8bf4ux660e}{%
+\subsection{2. gdb参数+命令
+说明}\label{2-gdbux53c2ux6570ux547dux4ee4-ux8bf4ux660e}}
+
+\hypertarget{21-gdb-ux53c2ux6570}{%
+\subsubsection{2.1 gdb 参数}\label{21-gdb-ux53c2ux6570}}
+
+-cd: 设置工作目录; -q: 安静模式, 不打印介绍信息和版本信息; -d:
+添加文件查找路径; -x: 从指定文件中执行GDB指令; -s:
+设置读取的符号表文件。
+
+\hypertarget{22-gdb-ux547dux4ee4}{%
+\subsubsection{2.2 gdb 命令}\label{22-gdb-ux547dux4ee4}}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule()
+命令 & 解释 & 示例 \\
+\midrule()
+\endhead
+file \textless 文本名\textgreater{} &
+加载被调试的可执行程序文件。因为一般都在被调试程序所在目录下执行GDB,
+因而文本名不需要带路径。 & (gdb) file gdb-sample \\
+r & Run的简写, 运行被调试的程序。如果此前没有下过断点, 则执行完整个程序;
+如果有断点, 则程序暂停在第一个可用断点处。 & (gdb) r \\
+c & Continue的简写, 继续执行被调试程序, 直至下一个断点或程序结束。 &
+(gdb) c \\
+b \textless 行号\textgreater{} b \textless 函数名称\textgreater{} b
+*\textless 函数名称\textgreater{} b *\textless 代码地址\textgreater{} d
+{[}编号{]} & b: Breakpoint的简写, 设置断点。
+可以使用"行号"``函数名称"``执行地址"等方式指定断点位置。
+其中在函数名称前面加''*``符号表示将断点设置在"由编译器生成的prolog代码处''。如果不了解汇编,
+可以不予理会此用法。 d: Delete breakpoint的简写, 删除指定编号的某个断点,
+或删除所有断点。断点编号从1开始递增。 & (gdb) b 8 (gdb) b main (gdb) b
+*main (gdb) b *0x804835c (gdb) d \\
+s, n & s: 执行一行源程序代码, 如果此行代码中有函数调用, 则进入该函数; n:
+执行一行源程序代码, 此行代码中的函数调用也一并执行。 s
+相当于其它调试器中的"Step Into (单步跟踪进入)"; n
+相当于其它调试器中的"Step Over (单步跟踪)"。
+这两个命令必须在有源代码调试信息的情况下才可以使用(GCC编译时使用''-g"参数)。
+& (gdb) s (gdb) n \\
+si, ni & si命令类似于s命令, ni命令类似于n命令。所不同的是,
+这两个命令(si/ni)所针对的是汇编指令, 而s/n针对的是源代码。 & (gdb) si
+(gdb) ni \\
+p \textless 变量名称\textgreater{} & Print的简写,
+显示指定变量(临时变量或全局变量)的值。 & (gdb) p i (gdb) p nGlobalVar \\
+display \ldots{} undisplay \textless 编号\textgreater{} & display,
+设置程序中断后欲显示的数据及其格式。 例如,
+如果希望每次程序中断后可以看到即将被执行的下一条汇编指令, 可以使用命令
+``display /i \(pc” 其中 \)pc 代表当前汇编指令, /i
+表示以十六进行显示。当需要关心汇编代码时, 此命令相当有用。 undispaly,
+取消先前的display设置, 编号从1开始递增。 & (gdb) display /i \$pc (gdb)
+undisplay 1 \\
+i & info的简写, 用于显示各类信息, 详情请查阅"help i"。 & (gdb) i r \\
+q & Quit的简写, 退出GDB调试环境。 & (gdb) q \\
+help {[}命令名称{]} & GDB帮助命令, 提供对GDB名种命令的解释说明。
+如果指定了"命令名称"参数, 则显示该命令的详细说明; 如果没有指定参数,
+则分类显示所有GDB命令, 供用户进一步浏览和查询。 & (gdb) help \\
+l & list的简写, 列出10行代码, 再次输入则列出往下的10行。若是list
+加行号则从该行开始输出10行 & (gdb) l \\
+watch & watch 为表达式(变量)expr设置一个观察点。变量量表达式值有变化时,
+马上停住程序 & (gdb) watch a*b + c/d \\
+finish & 运行至当前函数结束,
+并打印函数返回时的堆栈地址和返回值及参数值等信息 & \\
+set args & 可以修改发送给程序的参数 & (gdb)set args --b --x \\
+show args & 查看其缺省参数的列表 & (gdb) show args \\
+whatis & 显示某个变量的类型 & (gdb) whatis p \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{23-ux673aux5668ux8bedux8a00ux5de5ux5177}{%
+\subsubsection{2.3
+机器语言工具}\label{23-ux673aux5668ux8bedux8a00ux5de5ux5177}}
+
+有一组专用的gdb变量可以用来检查和修改计算机的通用寄存器,
+gdb提供了目前每一台计算机中实际使用的4个寄存器的标准名字:
+
+\begin{itemize}
+\item
+  l \$pc : 程序计数器
+\item
+  l \$fp : 帧指针(当前堆栈帧)
+\item
+  l \$sp : 栈指针
+\item
+  l \$ps : 处理器状态
+\end{itemize}
+
+\end{document}
