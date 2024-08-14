@@ -26,3 +26,26 @@ git config --global user.name
 git config --global user.email
 ```
 
+给一些长命令起别名：
+
+在 ~/.bashrc 中添加：
+
+```bash
+alias git-log='git log --pretty=oneline --all --graph --abbrev-commit'
+alias ll='ls -al'
+```
+
+之后 source ~/.bashrc 使其生效。
+
+### 版本切换：
+
+![image-20240814114817965](https://cdn.jsdelivr.net/gh/kennems/blog-image/image-20240814114817965.png)
+
+```bash
+git reset --hard commitId
+```
+
+```bash
+git reflog
+```
+
