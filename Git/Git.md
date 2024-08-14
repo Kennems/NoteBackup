@@ -45,7 +45,107 @@ alias ll='ls -al'
 git reset --hard commitId
 ```
 
+查看所有日志：
+
 ```bash
 git reflog
 ```
+
+## 分支
+
+查看本地分支
+
+```bash
+git branch
+```
+
+创建本地分支
+
+```bash
+git branch 分支名
+```
+
+切换分支
+
+```bash
+git checkout 分支名
+```
+
+切换并创建分支
+
+```bash
+git checkout -b 分支名
+```
+
+### 合并分支
+
+```bash
+git merge
+```
+
+### 删除分支
+
+删除分支时，需要做各种检查
+
+```bash
+git branch -d b1 
+```
+
+不做任何检查，强制删除
+
+```bash
+git branch -D b1
+```
+
+## 解决冲突
+
+```bash
+git merge 需要合并的工作区
+```
+
+### 远程仓库
+
+```bash
+git push -f --set-upstream [远端名称[本地分支名][:远端分支名]]
+```
+
+```bash
+git remote add origin 源
+```
+
+### 设置本地分支与远端分支绑定
+
+```bash
+git push --set-upstream origin main
+```
+
+设置好之后，直接
+
+```bash
+git push 
+```
+
+##  克隆
+
+```bash
+git clone 地址
+```
+
+## 从远程仓库抓取和拉取
+
+抓取，将仓库里的更新都抓取到本地，但不会进行合并
+
+```bash
+git fetch [remote name] [branch name]
+```
+
+拉取，就是将远端仓库的修改拉到本地并自动进行合并，等同于 fetch + merge
+
+```bash
+git pull [remote name] [branch name]
+```
+
+## 解决合并冲突
+
+
 
