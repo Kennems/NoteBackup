@@ -1,2 +1,0 @@
-# Finance and Investing
-
