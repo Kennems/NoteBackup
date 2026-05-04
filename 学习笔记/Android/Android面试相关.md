@@ -3,10 +3,10 @@
 ## 1.Activity
 
 - 说下Activity生命周期
-- Activity A 启动另一个Activity B 会调用哪些方法？如果B是透明主题的又或则是个DialogActivity呢
+- Activity A 启动另一个Activity B 会调用哪些方法？如果B是透明主题的又或者是个DialogActivity呢
 - 说下onSaveInstanceState()方法的作用 ? 何时会被调用？
 - Activity的启动流程
-- onSaveInstanceState(),onRestoreInstanceState的掉用时机
+- onSaveInstanceState(),onRestoreInstanceState的调用时机
 - activity的启动模式和使用场景
 - Activity A跳转Activity B，再按返回键，生命周期执行的顺序
 - 横竖屏切换,按home键,按返回键,锁屏与解锁屏幕,跳转透明Activity界面,启动一个 Theme 为 Dialog 的 Activity，弹出Dialog时Activity的生命周期
@@ -17,7 +17,7 @@
 - scheme使用场景,协议格式,如何使用
 - ANR 的四种场景
 - onCreate和onRestoreInstance方法中恢复数据时的区别
-- activty间传递数据的方式
+- Activity间传递数据的方式
 - 跨App启动Activity的方式,注意事项
 - Activity任务栈是什么
 - 有哪些Activity常用的标记位Flags
@@ -124,7 +124,7 @@
 - 同时对父 View 和子 View 设置点击方法，优先响应哪个
 - requestDisallowInterceptTouchEvent的调用时机
 
-## 8.RecycleView
+## 8.RecyclerView
 
 - RecyclerView的多级缓存机制,每一级缓存具体作用是什么,分别在什么场景下会用到哪些缓存
 - RecyclerView的滑动回收复用机制
@@ -276,7 +276,7 @@
 - 组件化优点和方案
 - 组件独立调试
 - 组件间通信
-- Aplication动态加载
+- Application动态加载
 - ARouter原理
 
 ## 24.热修复&插件化
@@ -297,7 +297,7 @@
 - AOP的优点
 - AOP的实现方式,APT,AspectJ,ASM,epic,hook
 
-## 26.Jectpack
+## 26.Jetpack
 
 - Navigation
 - DataBinding
@@ -368,7 +368,7 @@
 - getFirst 方法源码分析
 - removeFirst 方法源码分析
 - add(int index, E e)方法源码分析
-## 4.Hashset 源码
+## 4.HashSet 源码
 
 - 属性
 - 构造方法
@@ -386,7 +386,8 @@
 - Java 内存模型运行规则
 ## 6.垃圾回收算法（JVM）
 
-- Jvm的内存模型,每个里面都保存的什么
+
+- JVM的内存模型,每个里面都保存的什么
 - 类加载机制的几个阶段加载、验证、准备、解析、初始化、使用、卸载
 - 对象实例化时的顺序
 - 类加载器,双亲委派及其优势
@@ -423,7 +424,7 @@
 - 反射机制的相关类
 - 反射中如何获取Class类的实例
 - 如何获取一个类的属性对象 & 构造器对象 & 方法对象
-- Class.getField和         的区别，getDeclaredMethod和getMethod的区别
+- Class.getField和Class.getDeclaredField的区别，getDeclaredMethod和getMethod的区别
 - 反射机制的优缺点
 
 ## 10.泛型

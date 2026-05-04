@@ -1507,7 +1507,7 @@ public class StaticFragment extends Fragment {
 
 静态注册在布局文件中直接指定Fragment，而动态注册直到代码中才动态添加Fragment。
 
-## Fragment声明周期
+## Fragment生命周期
 
 ![image-20240630223900670](https://cdn.jsdelivr.net/gh/kennems/blog-image/image-20240630223900670.png)
 
