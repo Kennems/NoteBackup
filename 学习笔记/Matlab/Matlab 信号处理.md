@@ -43,7 +43,7 @@ New :
 - Import Data
 - Save Workspace 
 - New variable 
-- Open Varibale
+- Open Variable
 - Clear Workspace
 
 Code

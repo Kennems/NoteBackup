@@ -1356,7 +1356,7 @@ classdef Image_processing_GUI_App < matlab.apps.AppBase
 
             % Create strel
             app.strel = uidropdown(app.uibuttongroup6);
-            app.strel.Items = {'结构元素类型', 'diamond', 'disk', 'otcagon'};
+            app.strel.Items = {'结构元素类型', 'diamond', 'disk', 'octagon'};
             app.strel.ValueChangedFcn = createCallbackFcn(app, @strel_Callback, true);
             app.strel.Tag = 'strel';
             app.strel.FontSize = 16;
