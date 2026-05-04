@@ -2,11 +2,11 @@
 title : 'Mac 开发环境配置'
 date : 2026-05-04T18:11:00+08:00
 lastmod: 2026-05-04T18:11:00+08:00
-description : "机器学习笔记" 
-image : img/cat.jpg
-draft : false    
-categories : ["机器学习笔记"]
-tags : ["机器学习"]
+description : "Mac 开发环境配置" 
+# image : img/cat.jpg
+# draft : false    
+categories : ["Mac"]
+tags : ["Mac"]
 # password : leetcode
 ---
 
