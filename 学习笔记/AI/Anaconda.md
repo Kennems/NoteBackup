@@ -1,7 +1,7 @@
 # Anaconda
 
 ```
-conda --v
+conda --version
 ```
 
 

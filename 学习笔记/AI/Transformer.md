@@ -69,4 +69,4 @@ Non-autoregressive (NAT)
 
 ## Cross attention
 
-连接Encoder 和Decoder，
+连接Encoder 和Decoder。

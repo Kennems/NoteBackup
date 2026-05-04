@@ -11,13 +11,13 @@ import seaborn as sns
 print("Setup Complete")
 ```
 
-### padas read
+### pandas read
 
 ```py
 ign_data = pd.read_csv(ign_filepath, index_col = "Platform")
 ```
 
-## Line Chars
+## Line Charts
 
 ```py
 plt.figure(figsize = (12, 6))
@@ -36,7 +36,7 @@ plt.xlabel("Avila Adobe")
 
 ```py
 plt.figure(figsize=(8,6))
-plt.title("Bar chart for recing games")
+plt.title("Bar chart for racing games")
 sns.barplot(y=ign_data.index, x=ign_data['Racing'])
 plt.ylabel("platform")
 ```

@@ -1,7 +1,7 @@
 ---
 title : 'LLM使用'
 date : 2025-03-22T22:30:13+08:00
-lastmod: 2024-03-22T22:20:13+08:00
+lastmod: 2025-03-22T22:20:13+08:00
 description : "LLM使用" 
 categories : ["AI"]
 tags : ["LLM"]

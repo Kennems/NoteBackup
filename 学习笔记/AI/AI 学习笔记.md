@@ -4,7 +4,7 @@
 
 Different types of Functions
 
-**Regression** : The function outputs a scalar(标量）.
+**Regression** : The function outputs a scalar（标量）.
 
 - predict the PM2.5
 
@@ -140,7 +140,7 @@ $$
 
 ![](https://cdn.jsdelivr.net/gh/kennems/blog-image/20230505112625.png)
 
-1 **epoch** = see all the batched once   
+1 **epoch** = see all the batches once   
 
 **update** : update θ for each batch
 

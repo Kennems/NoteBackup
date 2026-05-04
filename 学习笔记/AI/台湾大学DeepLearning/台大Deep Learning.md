@@ -4,7 +4,7 @@
 
 Different types of Functions
 
-**Regression** : The function outputs a scalar(标量）.
+**Regression** : The function outputs a scalar（标量）.
 
 - predict the PM2.5
 
@@ -140,7 +140,7 @@ $$
 
 ![](https://cdn.jsdelivr.net/gh/kennems/blog-image/20230505112625.png)
 
-1 **epoch** = see all the batched once   
+1 **epoch** = see all the batches once   
 
 **update** : update θ for each batch
 
@@ -166,7 +166,7 @@ Testing : False
 ```
 
 ```py
-from torch.utils.data import Dataset, DateLoader
+from torch.utils.data import Dataset, DataLoader
 class MyDataset(Dataset):
 	def __init__(self, file): # read data & preprocess
 		self.data = ...
@@ -176,7 +176,7 @@ class MyDataset(Dataset):
 		return len(self.data)
 ```
 
-### Tersors
+### Tensors
 
 High-dimensional matrices(arrays)
 
@@ -209,7 +209,7 @@ shuffle : Training -> true
 		  Testing -> false
 ```
 
-### Tersors
+### Tensors
 
 - High-dimensional matrices(matrix used in mathematics, arrays)
 
@@ -254,13 +254,13 @@ x.transpose(0,1)
 x = x.unsqueeze(1)
 ```
 
-**Cat **: conncatenate multiple tensors 合并多个矩阵
+**Cat **: concatenate multiple tensors 合并多个矩阵
 
 ```py
 torch.cat([x, y, z], dim = 1)
 ```
 
-**Data Type**: Using different data types for model and data will case errors.
+**Data Type**: Using different data types for model and data will cause errors.
 
 32-bit -torch.float
 
@@ -276,7 +276,7 @@ torch.cat([x, y, z], dim = 1)
   - check if your computer has NVIDIA GPU
     - `torch.cuda.is_available() - Multiple GPUs  :  specify- ```   'cuda:0', 'cuda:1', 'cuda:2',... `
 
-#### Cradient Calculation
+#### Gradient Calculation
 
 ```py
 import torch
@@ -295,7 +295,7 @@ print(x.grad)
 #### Network Layers
 
 - Linear Layer (Fully-connected Layer)
-  - `nn.linear(in_features, out_features) #### Non-linear Activation Functions```pynn.Sigmoid()nn.ReLU() `
+  - `nn.Linear(in_features, out_features) #### Non-linear Activation Functions```pynn.Sigmoid()nn.ReLU() `
 
 #### Build your own neural network
 
@@ -312,7 +312,7 @@ class MyModel(nn.Module):
 		)
 	#compute output of your nn
 	def forward(self, x):
-		return self.next()
+		return self.net(x)
 ```
 
 #### Loss Functions
@@ -394,13 +394,13 @@ for x in tt_set:  # Iterate over the test set
 use pandas to load a csv file
 
 ```py
-train_data = pd.read_cav('./name.csv').drop(columns=['date']).values
+train_data = pd.read_csv('./name.csv').drop(columns=['date']).values
 x_train, y_train = train_data[:,:-1], train_data[:,:-1]
 ```
 
 #### Dataset
 
-**init** : Read data and preproces
+**init** : Read data and preprocess
 
 **getitem** : Return one sample at a time, In this case, one sample includes a 117 dimensional feature and a label
 
@@ -481,7 +481,7 @@ read pytorch tutorial
 
 Deep = Many hidden layers
 
-### Neurall Network
+### Neural Network
 
 Find a function in function set.
 
@@ -570,7 +570,7 @@ $$
 
 #### lossfunction:
 
-The number of times of get incotrrect results on training data.
+The number of times of get incorrect results on training data.
 $$
 L(f) = \sum_{n}\delta(f(x^n)\neq\hat{y}^n)
 $$
@@ -667,7 +667,7 @@ $$
 
 ![](https://cdn.jsdelivr.net/gh/kennems/blog-image/20230705203112.png)
 
-## Over fitting
+## Overfitting
 
 - 增加训练资料
 - **Data augmentation** 
@@ -687,16 +687,16 @@ CNN->比较没有弹性的model
 
 H : Hessian 
 
-**Tayler Series Approximation** 
+**Taylor Series Approximation** 
 $$
 L(\theta) \approx L(\theta^\prime)+\frac{1}{2}(\theta-\theta^\prime)^TH(\theta-\theta^\prime)
 $$
 
-- **H** is **positive definte** = All eigen values are positive -> **local minima**
-- **H** is **negative definte** = All eigen values are negative -> **local **
+- **H** is **positive definite** = All eigen values are positive -> **local minima**
+- **H** is **negative definite** = All eigen values are negative -> **local **
 - Some eigen values are positive , and some are negative -> **Saddle point**
 
-在高维下**local minima**可能会变成**saddle poing**
+在高维下**local minima**可能会变成**saddle point**
 
 # Tips for training : Batch and Momentum
 
@@ -717,7 +717,7 @@ $$
 \sigma_i^t=\sqrt{\frac{1}{t+1}\sum_{i=0}^t(g_i^t)^2}
 $$
 
-Adagred
+Adagrad
 
 ## RMSProp
 
@@ -728,7 +728,7 @@ $$
 
 Adam : RMSProp + Momentum
 
-## Learning Rate Sceduling 
+## Learning Rate Scheduling 
 
 $$
 \theta_i^{t+1} \gets \theta_i^t-\frac{\eta^t}{\sigma_i^t}g_i^t\\
@@ -750,7 +750,7 @@ Network的架构调整
 
 1、All the images to be classified have the same size.
 
- Receptive filed
+ Receptive field
 
 ## Simplification 1 - Typical Setting 
 
@@ -788,7 +788,7 @@ Each receptive field has the neurons with the same set of parameters, which call
 
 ## Sequence Labeling 
 
-consider the context -> 参数很大并且容易Over fitting
+consider the context -> 参数很大并且容易Overfitting
 
 Self-attention会持有整个sequence的信息
 
