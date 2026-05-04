@@ -17,7 +17,7 @@ git 由 linus 开发。
 
 ![img](https://www.ruanyifeng.com/blogimg/asset/2015/bg2015120901.png)
 
-1. **clone**（克隆)）： 从远程仓库中克隆代码到本地仓库
+1. **clone**（克隆）： 从远程仓库中克隆代码到本地仓库
 2. **checkout**（检出）：从本地仓库中检出一个仓库分支然后进行修订
 3. **add**（添加）：在提交前先将代码提交到暂存区
 4. **commit**（提交）：提交到本地仓库，本地仓库中保存修改的各个历史版本
@@ -110,10 +110,10 @@ $ git commit -v
 
 # 使用一次新的commit，替代上一次提交
 # 如果代码没有任何新变化，则用来改写上一次commit的提交信息
-$ git commit -amend -m [message]
+$ git commit --amend -m [message]
 
 # 重做上一次commit，并包括指定文件的新变化
-$ git commit -amend [file1] [file2] ...
+$ git commit --amend [file1] [file2] ...
 ```
 
 ### 版本切换：
