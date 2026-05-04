@@ -54,7 +54,7 @@ tags : ["MIT6.S081"]
     or if file is deleted while open!
   a file can have multiple links
     i.e. occur in multiple directories
-    no one of those occurences is special
+    no one of those occurrences is special
     so file must have info stored somewhere other than directory
   thus:
     FS records file info in an "inode" on disk
@@ -345,7 +345,7 @@ Pathname lookup
     unlock current before getting lock on next
     key idea: getting a reference separately from locking
 
-### **硬链接与软连接的对比**
+### **硬链接与软链接的对比**
 
 | 区别               | 硬链接 (Hard Link)           | 软链接 (Soft Link)         |
 | ------------------ | ---------------------------- | -------------------------- |

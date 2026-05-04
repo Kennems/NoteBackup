@@ -31,7 +31,7 @@ What needs to happen when a program makes a system call, e.g. write()?
     transparent to user code -- resume without disturbing
 
 Today we're focusing on the user/kernel transition
-  and ignoring what the system call implemenation does once in the kernel
+  and ignoring what the system call implementation does once in the kernel
   but the sys call impl has to be careful and secure also!
 
 What does the CPU's "mode" protect?

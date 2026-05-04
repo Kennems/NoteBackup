@@ -24,7 +24,7 @@ tags : ["MIT6.S081"]
 
 * **Abstract the hardware** for convenience and portability
 * **Multiplex** the hardware among many applications
-* **Isolate** applications in order to contrain bugs
+* **Isolate** applications in order to contain bugs
 * Allow **sharing** among cooperating applications
 * Control sharing for **security**
 * Don't get in the way of high **performance**

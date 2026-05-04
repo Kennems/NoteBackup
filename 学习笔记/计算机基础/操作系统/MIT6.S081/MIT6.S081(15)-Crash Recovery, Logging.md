@@ -266,7 +266,7 @@ challenge: system's call data must fit in log
   - break up some system calls into several transactions
     for example, large write()s
     thus: large write()s are not atomic
-      but a cransh will leave a correct prefix of the write
+      but a crash will leave a correct prefix of the write
 	
 
 challenge: allowing concurrent system calls
@@ -287,7 +287,7 @@ challenge: a block may be written multiple times in a transaction
   so a cached block may reflect multiple uncommitted transactions
   but install only happens when there are no in-progress transactions
     so installed blocks reflect only committed transactions
-  good for performance: "write absorbtion"
+  good for performance: "write absorption"
 
 # Summary
 
@@ -304,7 +304,7 @@ what's wrong with xv6's logging?
     writes each log block synchronously
       could write them as a batch and only write head synchronously 
     log writes and install writes are eager
-      both could be lazy, for more write absorbtion
+      both could be lazy, for more write absorption
       but must still write the log first
   trouble with operations that don't fit in the log
     unlink might dirty many blocks while truncating file

@@ -29,7 +29,7 @@ What goes wrong if we don't have locks
     race between two cores calling `kfree()`
   BUMMER:
     we need locks for correctness
-    but loose performance (kfree is serialized)
+    but lose performance (kfree is serialized)
 
 **The lock abstraction:**
 
@@ -212,7 +212,7 @@ Atomic swap instruction:
     diagram: cores, bus, RAM, lock thing
     so we are really pushing the problem down to the hardware
     h/w implements at granularity of cache-line or entire bus
-  memory lock forces concurrent swamp to run one at a time, not interleaved
+  memory lock forces concurrent swap to run one at a time, not interleaved
 
 Look at xv6 spinlock implementation
 
@@ -315,7 +315,7 @@ Advice:
 
 ![image-20240926121415398](https://raw.githubusercontent.com/Kennems/blog-image/main/image-20240926121415398.png)
 
-### 5.trap中出现未分配的page时判断是否时cow
+### 5.trap中出现未分配的page时判断是否是cow
 
 ![image-20240926121558069](https://raw.githubusercontent.com/Kennems/blog-image/main/image-20240926121558069.png)
 

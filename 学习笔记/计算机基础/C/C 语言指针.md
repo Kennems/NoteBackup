@@ -416,7 +416,7 @@ int main(int argc, char const *argv[])
 }
 ```
 
-### 通过指针便利数组
+### 通过指针遍历数组
 
 ```c
 #include <stdio.h>

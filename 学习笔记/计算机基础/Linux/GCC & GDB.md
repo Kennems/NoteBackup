@@ -48,7 +48,7 @@ gcc -o ExecuteFileName hello.c
 
 ## 6、使用管道代替编译中临时文件 -pipe
 
-使用非GNU汇编工具的时候，可以会有问题。
+使用非GNU汇编工具的时候，可能会有问题。
 
 ```bash 
 gcc -pipe -o hello.exe hello.c
@@ -267,7 +267,7 @@ Dump of assembler code for function do_thing:
 | s, n                                                       | s: 执行一行源程序代码, 如果此行代码中有函数调用, 则进入该函数; n: 执行一行源程序代码, 此行代码中的函数调用也一并执行。 s 相当于其它调试器中的"Step Into (单步跟踪进入)"; n 相当于其它调试器中的"Step Over (单步跟踪)"。 这两个命令必须在有源代码调试信息的情况下才可以使用(GCC编译时使用”-g"参数)。 | (gdb) s (gdb) n                                              |
 | si, ni                                                     | si命令类似于s命令, ni命令类似于n命令。所不同的是, 这两个命令(si/ni)所针对的是汇编指令, 而s/n针对的是源代码。 | (gdb) si (gdb) ni                                            |
 | p <变量名称>                                               |     Print的简写, 显示指定变量(临时变量或全局变量)的值。      | (gdb) p i (gdb) p nGlobalVar                                 |
-| display … undisplay <编号>                                 | display, 设置程序中断后欲显示的数据及其格式。 例如, 如果希望每次程序中断后可以看到即将被执行的下一条汇编指令, 可以使用命令 “display /i $pc” 其中 $pc 代表当前汇编指令, /i 表示以十六进行显示。当需要关心汇编代码时, 此命令相当有用。 undispaly, 取消先前的display设置, 编号从1开始递增。 | (gdb) display /i $pc (gdb) undisplay 1                       |
+| display … undisplay <编号>                                 | display, 设置程序中断后欲显示的数据及其格式。 例如, 如果希望每次程序中断后可以看到即将被执行的下一条汇编指令, 可以使用命令 “display /i $pc” 其中 $pc 代表当前汇编指令, /i 表示以十六进制显示。当需要关心汇编代码时, 此命令相当有用。 undispaly, 取消先前的display设置, 编号从1开始递增。 | (gdb) display /i $pc (gdb) undisplay 1                       |
 | i                                                          |      info的简写, 用于显示各类信息, 详情请查阅"help i"。      | (gdb) i r                                                    |
 | q                                                          |                Quit的简写, 退出GDB调试环境。                 | (gdb) q                                                      |
 | help [命令名称]                                            | GDB帮助命令, 提供对GDB名种命令的解释说明。 如果指定了"命令名称"参数, 则显示该命令的详细说明; 如果没有指定参数, 则分类显示所有GDB命令, 供用户进一步浏览和查询。 | (gdb) help                                                   |
