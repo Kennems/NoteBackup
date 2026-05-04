@@ -297,7 +297,7 @@ func main() {
 	for {
 		input, err := reader.ReadString('\n') // 从终端读取用户输入的数据
 		if err != nil {
-			fmt.Println("An error occured while reading input. Please try again")
+			fmt.Println("An error occurred while reading input. Please try again")
 			continue // 如果读取出错，继续下一次循环
 		}
 

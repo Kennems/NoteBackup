@@ -1332,7 +1332,7 @@ public class ImagePagerAdapter extends PagerAdapter {
 
 ### XML
 
-#### activity_fragement_static.xml
+#### activity_fragment_static.xml
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -1411,7 +1411,7 @@ public class FragmentStaticActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fragement_static);
+        setContentView(R.layout.activity_fragment_static);
     }
 }
 ```
