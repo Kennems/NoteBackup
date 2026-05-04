@@ -321,7 +321,7 @@ class Solution:
 #         self.val = val
 #         self.next = next
 from heapq import heappush, heappop
-class PrioriryQueue:
+class PriorityQueue:
     def __init__(self, node, val):
         self.node = node
         self.val = val
@@ -336,7 +336,7 @@ class Solution:
         for i in range(n):
             curHead = lists[i]
             if curHead:
-                heappush(h, PrioriryQueue(curHead, curHead.val))
+                heappush(h, PriorityQueue(curHead, curHead.val))
         
         dummy = tail = ListNode(-1)
         while h:
@@ -346,7 +346,7 @@ class Solution:
             tail = tail.next
 
             if cur.next:
-                heappush(h, PrioriryQueue(cur.next, cur.next.val))
+                heappush(h, PriorityQueue(cur.next, cur.next.val))
         
         return dummy.next
 ```

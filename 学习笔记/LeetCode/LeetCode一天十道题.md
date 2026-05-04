@@ -82,7 +82,7 @@ class Solution:
 
 [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)
 
-[55. 跳跃游](https://leetcode.cn/problems/jump-game/)
+[55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)
 
 [380. O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/)
 
