@@ -10,7 +10,7 @@ Transformer网络的出现，BERT与GPT的比拼，Encoder为主的自编码结�
 
 ### 大模型
 
-GPT3.0的出现，Decoder为主的自回归结构转折，chatgpt引领大模型LLM时代。
+GPT3.0的出现，Decoder为主的自回归结构转折，ChatGPT引领大模型LLM时代。
 
 ## 大模型时代 & 优质Prompt
 
@@ -22,9 +22,9 @@ GPT3.0的出现，Decoder为主的自回归结构转折，chatgpt引领大模型
 
 大模型（LLMs）涌现出的三大能力：
 
-- 上下文学习（In-cotnext learning)
+- 上下文学习（In-context learning)
 - 指令遵循 (instruction-following)
-- 思维链推理(COT, Chain-of-thoughts)
+- 思维链推理(COT, Chain-of-Thought)
 
 ## 定义优质Prompt
 

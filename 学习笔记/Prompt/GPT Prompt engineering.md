@@ -1,10 +1,10 @@
 # GPT Prompt engineering 
 
-想想你的未来，如果连这种人都不如你怎么生存下去？甚至是从来都不齿于一瞧的人都能这样来欺负你。聪明点吧！兄弟
+想想你的未来，如果连这种人都不如你怎么生存下去？甚至是从来都不屑一顾的人都能这样来欺负你。聪明点吧！兄弟
 
 ![](https://cdn.jsdelivr.net/gh/kennems/blog-image/20231228215808.png)
 
-## Strategy : Write clear instuctions
+## Strategy : Write clear instructions
 
 ### Tactic : Include details in your query to get more relevant answers
 
