@@ -213,7 +213,7 @@ Web服务器是一个软件程序，对HTTP协议的操作进行封装，使得�
 
 ### TomCat
 
-- Apache软件基金会一个核心小木，是一个开源免费的轻量级Web服务器，支持Servlet/JSP少量JavaEE规范
+- Apache软件基金会一个核心项目，是一个开源免费的轻量级Web服务器，支持Servlet/JSP少量JavaEE规范
 - TomCat也被称为**Web容器**，Servlet容器。Servlet程序需要依赖于TomCat才能运行
 
 启动方式：`bin/startup.bat`
