@@ -233,7 +233,7 @@ fun main() {
 
     val result2 = "The quick brown fox jumps over the lazy dog"
         .run(::isLong)
-        .run(::showMessage) // 链式调用， 将上一个返回的结果做为输入
+        .run(::showMessage) // 链式调用， 将上一个返回的结果作为输入
         .run(::println)
 }
 
