@@ -343,7 +343,7 @@ int main()
         {
             if(length < 0)
             {
-                printf("Recieve Data From Server %s Failed!\n", inet_ntoa(server_addr.sin_addr));
+                printf("Receive Data From Server %s Failed!\n", inet_ntoa(server_addr.sin_addr));
                 break;
             }
 			for(i=0;i<BUFFER_SIZE;i++)
@@ -359,7 +359,7 @@ int main()
             }
             bzero(buffer,BUFFER_SIZE);
        }
-       printf("Recieve File Finished\n", inet_ntoa(server_addr.sin_addr));
+       printf("Receive File Finished\n", inet_ntoa(server_addr.sin_addr));
        //fclose(stream);	
        
        //exit(0);
