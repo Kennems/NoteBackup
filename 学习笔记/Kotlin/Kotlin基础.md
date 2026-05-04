@@ -375,7 +375,7 @@ fun showMessage(isLong: Boolean):String{
 
 ### 数组类型
 
-Kotlin提供各种Array， 虽然是引用类型，但可以编译成Java基本数据类型。
+Kotlin提供各种Array，虽然是引用类型，但可以编译成Java基本数据类型。
 
 ![image-20240730134749156](https://cdn.jsdelivr.net/gh/kennems/blog-image/image-20240730134749156.png)
 
@@ -1315,7 +1315,7 @@ class Body : Element {
     }
 
     fun h3(text: String) {
-        elements.add(TextElement("h2", text))
+        elements.add(TextElement("h3", text))
     }
 
     fun p(text: String) {
