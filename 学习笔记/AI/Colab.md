@@ -1,3 +1,13 @@
+---
+title : 'Colab'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "colab连接本地jupyter，先运行："
+image : img/cat.jpg
+draft : false
+categories : ["AI"]
+tags : ["学习笔记", "AI"]
+---
 # Colab
 
 colab连接本地jupyter，先运行：

@@ -1,3 +1,13 @@
+---
+title : '配置 HTTP 访问网络权限'
+date : 2024-08-14T03:45:26+08:00
+lastmod: 2026-05-06T23:11:29+08:00
+description : "<!-- 必须声明的网络权限 -->"
+image : img/cat.jpg
+draft : false
+categories : ["Android"]
+tags : ["学习笔记", "Android", "常用资源文件"]
+---
 # 配置 HTTP 访问网络权限
 
 ## Android 网络权限配置

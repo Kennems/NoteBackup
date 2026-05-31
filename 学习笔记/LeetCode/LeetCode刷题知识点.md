@@ -1,3 +1,13 @@
+---
+title : 'LeetCode刷题知识点'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "在JavaScript中，**闭包（closure）**是指**函数**与其**词法环境**的组合。它允许函数在其**定义的词法作用域**之外**访问变量**，..."
+image : img/cat.jpg
+draft : false
+categories : ["LeetCode"]
+tags : ["学习笔记", "LeetCode"]
+---
 # LeetCode刷题知识点
 
 ## JavaScript闭包

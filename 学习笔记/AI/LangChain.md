@@ -1,3 +1,13 @@
+---
+title : 'LangChain'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-05-05T17:05:36+08:00
+description : "LangChain 是一个用于构建 LLM 应用的开源框架，提供模型调用、Prompt 模板、输出解析等工具链。"
+image : img/cat.jpg
+draft : false
+categories : ["AI"]
+tags : ["学习笔记", "AI"]
+---
 # LangChain
 
 LangChain 是一个用于构建 LLM 应用的开源框架，提供模型调用、Prompt 模板、输出解析等工具链。

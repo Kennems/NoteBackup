@@ -1,3 +1,13 @@
+---
+title : 'luogu problem reaording'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T13:03:42+08:00
+description : "大致题意为从高到低，找出最长路径，运用动态规划/记忆化搜索，dfs,注意最后结果为距离，边界的距离为一,dfs结果需要加一"
+image : img/cat.jpg
+draft : false
+categories : ["算法笔记"]
+tags : ["学习笔记", "算法笔记"]
+---
 # luogu problem reaording 
 
 ## P1434 [SHOI2002] 滑雪

@@ -1,3 +1,13 @@
+---
+title : 'Coze.cn bot API'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T12:24:02+08:00
+description : "Authorization : REDACTED"
+image : img/cat.jpg
+draft : false
+categories : ["Prompt"]
+tags : ["学习笔记", "Prompt"]
+---
 # Coze.cn bot API
 
 Authorization : REDACTED

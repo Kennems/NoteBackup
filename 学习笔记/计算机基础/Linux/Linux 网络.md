@@ -1,3 +1,13 @@
+---
+title : 'Linux 网络'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T13:38:55+08:00
+description : "int main(int argc, char *argv[])"
+image : img/cat.jpg
+draft : false
+categories : ["计算机基础"]
+tags : ["学习笔记", "计算机基础", "Linux"]
+---
 # Linux 网络
 
 ## tcpclient.c

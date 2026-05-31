@@ -1,3 +1,13 @@
+---
+title : '过程'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T12:54:39+08:00
+description : "1. 编译驱动并生成`xxx.ko`："
+image : img/cat.jpg
+draft : false
+categories : ["计算机基础"]
+tags : ["学习笔记", "计算机基础", "Linux"]
+---
 # 过程
 
 1. 编译驱动并生成`xxx.ko`：

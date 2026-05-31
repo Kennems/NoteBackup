@@ -1,3 +1,13 @@
+---
+title : 'Shell编程'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-05T16:47:19+08:00
+description : "Shell编程主要是将用户手工操作的单个或者多个Linux指令，按照一定的逻辑关系，顺序堆积在文本文件（脚本）中。最终脚本文件中的Linux指令会以特定的She..."
+image : img/cat.jpg
+draft : false
+categories : ["计算机基础"]
+tags : ["学习笔记", "计算机基础", "Linux"]
+---
 # Shell编程
 
 Shell编程主要是将用户手工操作的单个或者多个Linux指令，按照一定的逻辑关系，顺序堆积在文本文件（脚本）中。最终脚本文件中的Linux指令会以特定的Shell解释器（/bin/bash）去执行，进而满足企业业务的需求。

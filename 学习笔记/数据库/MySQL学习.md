@@ -1,3 +1,13 @@
+---
+title : 'MySQL学习'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "show databases; 显示数据库"
+image : img/cat.jpg
+draft : false
+categories : ["数据库"]
+tags : ["学习笔记", "数据库"]
+---
 # MySQL学习
 
 mysql常用命令

@@ -1,3 +1,13 @@
+---
+title : 'LeetCode Prompt'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-05-04T12:24:02+08:00
+description : "你是一位算法大师，下面是题目和代码模板，请根据代码模板完成题目，简化代码不要写注释，不需要导包（LeetCode平台会自动导入），不要引入其他无用的东西（比如题..."
+image : img/cat.jpg
+draft : false
+categories : ["Prompt"]
+tags : ["学习笔记", "Prompt"]
+---
 # LeetCode Prompt
 
 ```

@@ -1,3 +1,13 @@
+---
+title : 'PCB绘制'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "修改中文：右键Preference-》 System-》 General-》 use localized resources"
+image : img/cat.jpg
+draft : false
+categories : ["小工具使用"]
+tags : ["学习笔记", "小工具使用"]
+---
 #  PCB绘制
 
 修改中文：右键Preference-》 System-》 General-》 use localized resources

@@ -1,3 +1,13 @@
+---
+title : '深入剖析 AI 刷题的实践与价值 | 豆包MarsCode AI刷题'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "本文章是关于[<伴学笔记 | 青训营X豆包MarsCode 技术训练营>](https://juejin.cn/post/7431952517255577627..."
+image : img/cat.jpg
+draft : false
+categories : ["青训营"]
+tags : ["学习笔记", "青训营", "MarsCode青训营"]
+---
 # 深入剖析 AI 刷题的实践与价值 | 豆包MarsCode AI刷题
 
 本文章是关于[<伴学笔记 | 青训营X豆包MarsCode 技术训练营>](https://juejin.cn/post/7431952517255577627#heading-6)中对应`方向三：实践记录以及工具使用`所记录的刷题实践——功能亮点总结😊，同时解析的题目是[小Q和小X的游戏](https://www.marscode.cn/practice/65621ew1pe38dj?problem_id=7424418560667533356)

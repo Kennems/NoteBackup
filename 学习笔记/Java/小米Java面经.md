@@ -1,3 +1,13 @@
+---
+title : '小米一面- 软件开发工程师-java方向'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T12:57:21+08:00
+description : "ak和sk的具体交互过程"
+image : img/cat.jpg
+draft : false
+categories : ["Java"]
+tags : ["学习笔记", "Java"]
+---
 https://www.nowcoder.com/users/468296731
 
 # 小米一面- 软件开发工程师-java方向

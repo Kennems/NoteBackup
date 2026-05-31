@@ -1,3 +1,13 @@
+---
+title : '**用 MarsCode AI 刷题：从新手到进阶的全面攻略**｜ 豆包MarsCode AI 刷题'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "近年来，编程学习的热潮与人工智能技术的发展不谋而合。在众多编程辅助工具中，MarsCode AI 凭借其智能化的题解分析和交互式功能脱颖而出，尤其在算法学习领域..."
+image : img/cat.jpg
+draft : false
+categories : ["青训营"]
+tags : ["学习笔记", "青训营", "MarsCode青训营"]
+---
 # **用 MarsCode AI 刷题：从新手到进阶的全面攻略**｜ 豆包MarsCode AI 刷题
 
 ------

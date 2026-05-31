@@ -1,3 +1,13 @@
+---
+title : 'AI 刷题功能对学习的改变与工具使用心得 | 豆包MarsCode AI刷题'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "AI 能根据学习者的知识点掌握情况，动态生成适合当前水平的题目，并且配备详细的解析。这极大减少了学习者在寻找和理解题目上的时间成本。"
+image : img/cat.jpg
+draft : false
+categories : ["青训营"]
+tags : ["学习笔记", "青训营", "MarsCode青训营"]
+---
 # AI 刷题功能对学习的改变与工具使用心得 | 豆包MarsCode AI刷题
 
 ## AI 刷题工具的亮点功能

@@ -1,3 +1,13 @@
+---
+title : 'Understanding Transformers: A Cooperative Exploration'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "Transformers, a revolutionary model architecture in the field of natural languag..."
+image : img/cat.jpg
+draft : false
+categories : ["AI"]
+tags : ["学习笔记", "AI"]
+---
 # Understanding Transformers: A Cooperative Exploration
 
 Transformers, a revolutionary model architecture in the field of natural language processing, have significantly reshaped the landscape of machine learning. This academic exploration aims to demystify the core concepts of transformers for teenagers interested in delving into the fascinating world of artificial intelligence.

@@ -1,3 +1,13 @@
+---
+title : '优质Prompt'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T12:24:02+08:00
+description : "RNN，CNN网络为主的神经网络"
+image : img/cat.jpg
+draft : false
+categories : ["Prompt"]
+tags : ["学习笔记", "Prompt"]
+---
 # 优质Prompt
 
 ### 传统模型

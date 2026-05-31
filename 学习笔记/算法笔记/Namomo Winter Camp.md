@@ -1,3 +1,13 @@
+---
+title : 'Namomo Winter Camp 0107开幕式'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "因为算法而在这里 Camp"
+image : img/cat.jpg
+draft : false
+categories : ["算法笔记"]
+tags : ["学习笔记", "算法笔记"]
+---
 # Namomo Winter Camp 0107开幕式
 
 

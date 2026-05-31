@@ -1,3 +1,13 @@
+---
+title : '**应用MATLAB求解线性代数题目——行列式**'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "在MATLAB中，行列式的计算可以通过 `det` 函数实现。下面是一个详细分析，涵盖了MATLAB中行列式求解的相关说明。"
+image : img/cat.jpg
+draft : false
+categories : ["Matlab"]
+tags : ["学习笔记", "Matlab"]
+---
 # **应用MATLAB求解线性代数题目——行列式**
 
 ## 行列式计算

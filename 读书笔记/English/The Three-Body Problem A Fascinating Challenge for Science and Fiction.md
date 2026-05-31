@@ -1,3 +1,12 @@
+---
+title : 'The Three-Body Problem: A Fascinating Challenge for Science and Fiction'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "The three-body problem is one of the most intriguing and difficult questions in ..."
+draft : false
+categories : ["读书笔记", "English"]
+tags : ["读书笔记", "English"]
+---
 # The Three-Body Problem: A Fascinating Challenge for Science and Fiction
 
 The three-body problem is one of the most intriguing and difficult questions in physics and astronomy. It asks how three objects, such as planets, stars, or spacecraft, move under the influence of their mutual gravity, without any other forces acting on them. The problem has no general solution, meaning that there is no formula or algorithm that can predict the exact motion of the three bodies for any given initial conditions. The best one can do is to find approximate solutions for some special cases, or to use numerical methods to simulate the motion on a computer.

@@ -1,3 +1,13 @@
+---
+title : 'MTProto'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-05-05T23:23:11+08:00
+description : "Telegram 自研的通信协议，用于客户端与服务器之间的加密通信。"
+image : img/cat.jpg
+draft : false
+categories : ["计算机基础"]
+tags : ["学习笔记", "计算机基础", "计算机网络"]
+---
 # MTProto
 
 Telegram 自研的通信协议，用于客户端与服务器之间的加密通信。

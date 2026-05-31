@@ -1,3 +1,13 @@
+---
+title : 'SqlServer'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-05T16:47:19+08:00
+description : "SQL Server 是微软开发的关系型数据库管理系统，使用 T-SQL（Transact-SQL）作为查询语言。"
+image : img/cat.jpg
+draft : false
+categories : ["数据库"]
+tags : ["学习笔记", "数据库"]
+---
 # SqlServer
 
 SQL Server 是微软开发的关系型数据库管理系统，使用 T-SQL（Transact-SQL）作为查询语言。

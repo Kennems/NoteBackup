@@ -1,3 +1,13 @@
+---
+title : 'SimpleDateFormat()'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "如果你的前缀都是中文字符（或者不是 `A–Z`／`a–z` 的字母），那么在 `SimpleDateFormat` 的 pattern 里可以直接写，不用额外占..."
+image : img/cat.jpg
+draft : false
+categories : ["Android"]
+tags : ["学习笔记", "Android"]
+---
 # SimpleDateFormat()
 
 如果你的前缀都是中文字符（或者不是 `A–Z`／`a–z` 的字母），那么在 `SimpleDateFormat` 的 pattern 里可以直接写，不用额外占位符也不用转义。比如：

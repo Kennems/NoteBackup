@@ -1,3 +1,13 @@
+---
+title : 'l-overview'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "6.S081 2020 Lecture 1: O/S overview"
+image : img/cat.jpg
+draft : false
+categories : ["计算机基础"]
+tags : ["学习笔记", "计算机基础", "操作系统", "lec"]
+---
 6.S081 2020 Lecture 1: O/S overview
 
 Overview

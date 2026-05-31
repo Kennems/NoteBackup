@@ -1,3 +1,13 @@
+---
+title : 'GORM实践 | 青训营'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "GORM（Go Object Relational Mapping）是一个在Go语言中使用的对象关系映射库，它提供了一种简洁、灵活的方式来操作数据库。GORM支..."
+image : img/cat.jpg
+draft : false
+categories : ["青训营"]
+tags : ["学习笔记", "青训营"]
+---
 # GORM实践 | 青训营
 
 GORM（Go Object Relational Mapping）是一个在Go语言中使用的对象关系映射库，它提供了一种简洁、灵活的方式来操作数据库。GORM支持多种关系型数据库，如MySQL、PostgreSQL、SQLite和SQL Server等。
@@ -284,7 +294,7 @@ func main() {
 #### 获取查询结果
 
 ```go
-	count := DB.Find(&student1).RowAffected
+	count := DB.Find(&student1).RowsAffected
 	err := DB.Find(&student1).Error
 	fmt.Println(count, err)
 ```
@@ -327,7 +337,7 @@ func main() {
 
 #### save更新
 
-可以修改name和age，用selecte可以选择特定属性更新。
+可以修改name和age，用select可以选择特定属性更新。
 
 ```go
 	//save更新

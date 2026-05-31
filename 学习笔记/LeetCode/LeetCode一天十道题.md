@@ -1,3 +1,13 @@
+---
+title : 'LeetCode一天十道题'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T12:55:35+08:00
+description : "[274. H 指数](https://leetcode.cn/problems/h-index/)"
+image : img/cat.jpg
+draft : false
+categories : ["LeetCode"]
+tags : ["学习笔记", "LeetCode"]
+---
 # LeetCode一天十道题
 
 # 做十道题，复习十道题

@@ -1,3 +1,13 @@
+---
+title : 'GCC & GDB'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T12:54:39+08:00
+description : "gcc 与 g++ 分别是 gnu 的 c & c++ 编译器 gcc/g++ 在执行编译工作的时候，总共需要4步："
+image : img/cat.jpg
+draft : false
+categories : ["计算机基础"]
+tags : ["学习笔记", "计算机基础", "Linux"]
+---
 # GCC & GDB
 
 gcc 与 g++ 分别是 gnu 的 c & c++ 编译器 gcc/g++ 在执行编译工作的时候，总共需要4步：
@@ -216,7 +226,7 @@ Breakpoint 1, 0x00000000004004f8 in do_thing ()
 
 ### 1.2 阅读汇编代码
 
-使用 disassemble 命令, 我们可以看到这个函数的汇编代码。棒级了, 这是 x86 汇编代码。虽然我不是很懂它, 但是 callq 这一行是 printf 函数调用。
+使用 disassemble 命令, 我们可以看到这个函数的汇编代码。棒极了, 这是 x86 汇编代码。虽然我不是很懂它, 但是 callq 这一行是 printf 函数调用。
 
 ```bash
 (gdb) disassemble do_thing

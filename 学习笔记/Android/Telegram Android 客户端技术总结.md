@@ -1,3 +1,13 @@
+---
+title : 'Telegram Android 客户端技术总结'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "原理：使用 Linux epoll 实现事件驱动 I/O，单线程处理大量并发连接。"
+image : img/cat.jpg
+draft : false
+categories : ["Android"]
+tags : ["学习笔记", "Android"]
+---
 # Telegram Android 客户端技术总结
 
 ## 一、网络层架构与协议实现

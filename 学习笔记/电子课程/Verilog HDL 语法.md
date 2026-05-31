@@ -1,3 +1,13 @@
+---
+title : 'Verilog HDL 语法'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T13:03:42+08:00
+description : "module led("
+image : img/cat.jpg
+draft : false
+categories : ["电子课程"]
+tags : ["学习笔记", "电子课程"]
+---
 # Verilog HDL 语法
 
 ## 点灯程序

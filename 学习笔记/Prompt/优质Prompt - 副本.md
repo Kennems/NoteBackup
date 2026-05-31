@@ -1,3 +1,13 @@
+---
+title : 'GPT System Prompt'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "绝不提及自己是 AI。"
+image : img/cat.jpg
+draft : false
+categories : ["Prompt"]
+tags : ["学习笔记", "Prompt"]
+---
 # GPT System Prompt
 
 ## Custom instructions

@@ -1,3 +1,13 @@
+---
+title : 'GPT Prompt engineering'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T12:24:02+08:00
+description : "想想你的未来，如果连这种人都不如你怎么生存下去？甚至是从来都不屑一顾的人都能这样来欺负你。聪明点吧！兄弟"
+image : img/cat.jpg
+draft : false
+categories : ["Prompt"]
+tags : ["学习笔记", "Prompt"]
+---
 # GPT Prompt engineering 
 
 想想你的未来，如果连这种人都不如你怎么生存下去？甚至是从来都不屑一顾的人都能这样来欺负你。聪明点吧！兄弟

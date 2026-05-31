@@ -1,3 +1,12 @@
+---
+title : 'Word memorization'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "n. 雾化器，悬浮微粒"
+draft : false
+categories : ["读书笔记", "English"]
+tags : ["读书笔记", "English"]
+---
 # Word memorization
 
 ### aerosol

@@ -1,3 +1,13 @@
+---
+title : '配置VPN'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "客户端：https://github.com/2dust/v2rayN"
+image : img/cat.jpg
+draft : false
+categories : ["小工具使用"]
+tags : ["学习笔记", "小工具使用"]
+---
 # 配置VPN
 
 ## Windows 

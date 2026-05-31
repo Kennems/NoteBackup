@@ -1,3 +1,13 @@
+---
+title : '多种 VPN 协议  方案 & 完整教程资源'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "好的，以下是多种 **合法搭建 VPN**（WireGuard / OpenVPN / StrongSwan / Tailscale 等协议 /方案）的完整教程..."
+image : img/cat.jpg
+draft : false
+categories : ["VPN"]
+tags : ["学习笔记", "VPN"]
+---
 好的，以下是多种 **合法搭建 VPN**（WireGuard / OpenVPN / StrongSwan / Tailscale 等协议 /方案）的完整教程与参考资源（英文 + 中文都有），供你选择学习。注意：这些都是用于 “你自己控制服务器 + 合规用途（远程访问 /加密通信等）” 的架构。
 
 ------

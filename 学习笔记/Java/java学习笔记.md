@@ -1,3 +1,13 @@
+---
+title : 'java学习笔记'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T12:57:21+08:00
+description : "解释说明程序，提高程序的阅读性"
+image : img/cat.jpg
+draft : false
+categories : ["Java"]
+tags : ["学习笔记", "Java"]
+---
 # java学习笔记
 
 ## 一、基础知识

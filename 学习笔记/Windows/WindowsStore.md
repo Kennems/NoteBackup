@@ -1,3 +1,13 @@
+---
+title : 'WindowsStore'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T13:03:42+08:00
+description : "1.确保控制面板中开启了防火墙"
+image : img/cat.jpg
+draft : false
+categories : ["Windows"]
+tags : ["学习笔记", "Windows"]
+---
 
 
 

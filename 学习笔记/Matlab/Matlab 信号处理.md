@@ -1,3 +1,13 @@
+---
+title : 'Matlab 信号处理'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T13:01:31+08:00
+description : "HOME， PLOTS， APPS， EDITOR， PUBLISH， VIEW"
+image : img/cat.jpg
+draft : false
+categories : ["Matlab"]
+tags : ["学习笔记", "Matlab"]
+---
 # Matlab 信号处理
 
 ## Matlab熟悉
@@ -56,7 +66,14 @@ Code
 
 ### EDITOR
 
-#### 
+#### FILE
+
+New 新建脚本
+Open 打开文件
+Save 保存
+Save As 另存为
+Find Files 查找文件
+Compare 比较文件
 
 #### NAVIGAT
 

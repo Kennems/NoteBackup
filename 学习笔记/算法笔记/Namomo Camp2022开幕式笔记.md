@@ -1,4 +1,14 @@
-Namomo Camp2022开幕式笔记
+---
+title : 'Namomo Camp2022开幕式笔记'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "如何学算法：数据结构和动态规划"
+image : img/cat.jpg
+draft : false
+categories : ["算法笔记"]
+tags : ["学习笔记", "算法笔记"]
+---
+# Namomo Camp2022开幕式笔记
 
 迪利克雷
 

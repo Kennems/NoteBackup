@@ -1,3 +1,13 @@
+---
+title : 'Gin框架'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "go get -u github.com/gin-gonic/gin"
+image : img/cat.jpg
+draft : false
+categories : ["青训营"]
+tags : ["学习笔记", "青训营"]
+---
 # Gin框架
 
 下载gin
@@ -26,7 +36,6 @@ func main() {
 
 	router.Run(":8080")
 }
-```
 
 ## 响应
 
@@ -37,7 +46,7 @@ func main() {
 		//状态码：
 		//200正常相应
 
-		c.String(http.StatusOK, "你好腌")
+		c.String(http.StatusOK, "你好呀")
 	})
 	router.Run(":80")
 }
@@ -73,7 +82,7 @@ func main() {
 ```go
 router.GET("/xml", func(c *gin.Context) {
   c.XML(http.StatusOK, gin.H{"user": "hanru", "message": "hey", "status": http.StatusOK})
-})CopyErrorOK!
+})
 ```
 
 返回yaml
@@ -124,7 +133,7 @@ func _html(c *gin.Context) {
 
 ## 请求
 
-### 查询参数qurey
+### 查询参数query
 
 /query?user=xxx&user=xxx
 

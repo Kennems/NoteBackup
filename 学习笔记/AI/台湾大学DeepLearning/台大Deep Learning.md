@@ -1,3 +1,13 @@
+---
+title : 'AI 学习笔记'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T12:22:45+08:00
+description : "Different types of Functions"
+image : img/cat.jpg
+draft : false
+categories : ["AI"]
+tags : ["学习笔记", "AI", "台湾大学DeepLearning"]
+---
 # AI 学习笔记 
 
 ## 机器学习简介
@@ -454,6 +464,16 @@ class My_Model(nn.Module):
         x = x.squeeze(1) # (B, 1) -> (B)
         return x
 ```
+
+修改模型结构时需要注意：
+
+1. **维度匹配**：前一层的输出维度必须等于后一层的输入维度，即 `nn.Linear(dim_in, dim_out)` 的 `dim_out` 必须等于下一层 `nn.Linear` 的 `dim_in`。
+2. **常见修改方式**：
+   - 改变隐藏层大小：如 `nn.Linear(input_dim, 32)` → `nn.Linear(32, 16)` → `nn.Linear(16, 1)`
+   - 增加层数：在中间添加更多 `nn.Linear` + 激活函数对
+   - 改变激活函数：尝试 `nn.Sigmoid()`, `nn.Tanh()`, `nn.LeakyReLU()` 等
+   - 添加 Dropout 防止过拟合：`nn.Dropout(0.2)`
+3. **输出维度**：回归任务输出 1，分类任务输出类别数
 
 #### Criterion
 

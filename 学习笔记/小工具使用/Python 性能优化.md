@@ -1,3 +1,13 @@
+---
+title : 'Python 性能优化'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "[python 高性能编程](https://kevinng77.github.io/posts/notes/articles/%E7%AC%94%E8%AE%..."
+image : img/cat.jpg
+draft : false
+categories : ["小工具使用"]
+tags : ["学习笔记", "小工具使用"]
+---
 # Python 性能优化
 
 [python 高性能编程](https://kevinng77.github.io/posts/notes/articles/%E7%AC%94%E8%AE%B0python_advanced.html)

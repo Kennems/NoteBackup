@@ -1,3 +1,13 @@
+---
+title : '定义移动方向：右、下、左、上'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "在开始刷题之前，首先需要明确目标："
+image : img/cat.jpg
+draft : false
+categories : ["青训营"]
+tags : ["学习笔记", "青训营", "MarsCode青训营"]
+---
 ### 利用MarsCode AI高效刷题：全面学习方法与经验总结｜ 豆包MarsCode AI 刷题
 
 ------

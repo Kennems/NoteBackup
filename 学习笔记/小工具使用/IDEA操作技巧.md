@@ -1,3 +1,13 @@
+---
+title : 'IDEA操作技巧'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "新建project，之后删除原来的module， 之后导入新module"
+image : img/cat.jpg
+draft : false
+categories : ["小工具使用"]
+tags : ["学习笔记", "小工具使用"]
+---
 # IDEA操作技巧
 
 新建project，之后删除原来的module， 之后导入新module

@@ -1,3 +1,13 @@
+---
+title : '豆包Marscode'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "total_sum = sum(sums)"
+image : img/cat.jpg
+draft : false
+categories : ["算法笔记"]
+tags : ["学习笔记", "算法笔记"]
+---
 # 豆包Marscode
 
 ## 数字分组求偶数和

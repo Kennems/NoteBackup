@@ -1,8 +1,18 @@
+---
+title : 'day14 消息队列'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "- 服务处理能力有限"
+image : img/cat.jpg
+draft : false
+categories : ["青训营"]
+tags : ["学习笔记", "青训营"]
+---
 # day14 消息队列
 
 面对：
 
-- 系统奔溃
+- 系统崩溃
 - 服务处理能力有限
 - 链路耗时长尾
 - 日志如何处理
@@ -80,7 +90,7 @@ Consumer通过发送FetchRequest请求消息数据，Broker会将指定Offset处
 
 通过动手进行分配，哪一个Consumer消费哪一个Partition完全由业务来决定。
 
-### Consumer-Hign Level
+### Consumer-High Level
 
 ### Consumer Rebalance
 

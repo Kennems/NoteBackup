@@ -1,3 +1,13 @@
+---
+title : '图像处理GUI'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T13:01:31+08:00
+description : "classdef Image_processing_GUI_App < matlab.apps.AppBase"
+image : img/cat.jpg
+draft : false
+categories : ["Matlab"]
+tags : ["学习笔记", "Matlab"]
+---
 图像处理GUI
 
 ```matlab

@@ -1,3 +1,13 @@
+---
+title : '青训营X豆包MarsCode 刷题实践 ｜ 豆包MarsCode AI 刷题'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "近年来，人工智能（AI）技术的迅猛发展为教育领域带来了诸多创新，尤其是在算法学习和编程训练方面。以豆包MarsCode为代表的AI刷题平台，为学习者提供了便捷且..."
+image : img/cat.jpg
+draft : false
+categories : ["青训营"]
+tags : ["学习笔记", "青训营", "MarsCode青训营"]
+---
 # 青训营X豆包MarsCode 刷题实践 ｜ 豆包MarsCode AI 刷题
 
 ### AI刷题的优势与实践案例分析

@@ -1,3 +1,13 @@
+---
+title : 'Linux深度学习笔记'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-05T17:05:36+08:00
+description : "lspci | grep -i nvidia"
+image : img/cat.jpg
+draft : false
+categories : ["计算机基础"]
+tags : ["学习笔记", "计算机基础", "Linux"]
+---
 # Linux深度学习笔记
 
 ## GPU 环境配置

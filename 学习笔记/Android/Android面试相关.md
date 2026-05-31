@@ -1,3 +1,13 @@
+---
+title : 'Android面试相关'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-05-04T12:51:46+08:00
+description : "- 说下Activity生命周期"
+image : img/cat.jpg
+draft : false
+categories : ["Android"]
+tags : ["学习笔记", "Android"]
+---
 # Android面试相关
 
 ## 1.Activity

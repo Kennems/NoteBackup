@@ -1,3 +1,13 @@
+---
+title : 'python程序答案'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "date = time.localtime()"
+image : img/cat.jpg
+draft : false
+categories : ["AI"]
+tags : ["学习笔记", "AI"]
+---
 ## python程序答案
 
 ### 1、编写程序，判断今天是今年的第几天。

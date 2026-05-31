@@ -1,3 +1,13 @@
+---
+title : 'ByteDance Winter Camp Learning'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "每天坚持学习发文章打卡 1.15-2.14"
+image : img/cat.jpg
+draft : false
+categories : ["青训营"]
+tags : ["学习笔记", "青训营"]
+---
 # ByteDance Winter Camp Learning
 
 每天坚持学习发文章打卡 1.15-2.14
@@ -16,7 +26,7 @@
 
 # 1/12 go语言基础语言
 
-基础语言 工程实践 高质量编程与性能调优实战 高新跟那个go语言发行版优化与落地实践。
+基础语言 工程实践 高质量编程与性能调优实战 高质量编程与性能调优实战 go语言发行版优化与落地实践。
 
 ## 什么是go语言？
 

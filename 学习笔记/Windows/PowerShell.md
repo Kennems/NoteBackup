@@ -1,3 +1,13 @@
+---
+title : 'PowerShell'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "function Get-FrenchHoliday"
+image : img/cat.jpg
+draft : false
+categories : ["Windows"]
+tags : ["学习笔记", "Windows"]
+---
 # PowerShell
 
 ```powershell

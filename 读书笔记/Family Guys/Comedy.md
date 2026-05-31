@@ -1,3 +1,12 @@
+---
+title : 'Comedy'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "一些滑稽的场景，一定要是现实生活中不太可能发生的场景"
+draft : false
+categories : ["读书笔记", "Family Guys"]
+tags : ["读书笔记", "Family Guys"]
+---
 ## 笑话的本质
 
 一些滑稽的场景，一定要是现实生活中不太可能发生的场景

@@ -1,3 +1,13 @@
+---
+title : 'Matlab代码在Word中的乱码和高亮问题？保持代码高亮且不乱码的解决方法'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "**重点 ： 使用代码高亮网站：https://highlight.hohli.com/index.php**"
+image : img/cat.jpg
+draft : false
+categories : ["小工具使用"]
+tags : ["学习笔记", "小工具使用"]
+---
 # Matlab代码在Word中的乱码和高亮问题？保持代码高亮且不乱码的解决方法
 
 **重点 ： 使用代码高亮网站：https://highlight.hohli.com/index.php**

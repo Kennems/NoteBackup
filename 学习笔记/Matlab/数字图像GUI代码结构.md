@@ -1,4 +1,14 @@
-导致报错原因：
+---
+title : '导致报错原因：'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T13:01:31+08:00
+description : "app.figure.WindowStyle = 'modal';"
+image : img/cat.jpg
+draft : false
+categories : ["Matlab"]
+tags : ["学习笔记", "Matlab"]
+---
+# 导致报错原因：
 
 ```matlab
                  app.figure.WindowStyle = 'modal';

@@ -1,4 +1,14 @@
-icpc模板
+---
+title : 'icpc模板'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "using namespace std;"
+image : img/cat.jpg
+draft : false
+categories : ["算法笔记"]
+tags : ["学习笔记", "算法笔记"]
+---
+# icpc模板
 
 [TOC]
 

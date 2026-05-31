@@ -1,3 +1,13 @@
+---
+title : 'Colab 解决中文字体问题'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "from matplotlib.font_manager import fontManager"
+image : img/cat.jpg
+draft : false
+categories : ["AI"]
+tags : ["学习笔记", "AI"]
+---
 # Colab 解决中文字体问题
 
 ```py
@@ -19,8 +29,5 @@ import math
 
 
 
-```
-现在你是一位资深的算法工程师，尤其精通python程序设计，机器学习相关算法。
 
-```
 

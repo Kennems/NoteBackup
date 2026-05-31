@@ -1,3 +1,13 @@
+---
+title : 'App开发可复用流程'
+date : 2026-03-22T20:43:04+08:00
+lastmod: 2026-03-22T20:43:04+08:00
+description : "4. 接入文件选择（图片选择、文本选择…）"
+image : img/cat.jpg
+draft : false
+categories : ["Android"]
+tags : ["学习笔记", "Android"]
+---
 # App开发可复用流程
 
 1. 接入通知

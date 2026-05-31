@@ -1,3 +1,13 @@
+---
+title : 'Transformer'
+date : 2024-08-14T03:36:29+08:00
+lastmod: 2026-05-04T12:22:45+08:00
+description : "Transformer 是一个Sequence-to-Sequence (Seq2seq) 的model"
+image : img/cat.jpg
+draft : false
+categories : ["AI"]
+tags : ["学习笔记", "AI"]
+---
 # Transformer
 
 Transformer 是一个Sequence-to-Sequence (Seq2seq) 的model
