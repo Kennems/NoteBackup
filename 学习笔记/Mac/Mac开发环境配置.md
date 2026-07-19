@@ -7,7 +7,6 @@ description : "Mac 开发环境配置"
 # draft : false    
 categories : ["Mac"]
 tags : ["Mac"]
-# password : leetcode
 ---
 
 
